@@ -58,9 +58,6 @@ public class MacroRatio {
 
     public static class Builder {
 
-        //TODO: FEEDBACK LEFT HERE TO SET PROTEIN/FAT/CARB DEFAULTS IN MacroRatio - BUT THEN IT THROWS A NULL
-        // POINTER EXCEPTION IF NOT SET IN BUILDER. WHY SWITCH IT? OR HOW TO AVOID EXCEPTION AND SET TO DEFAULT INSTEAD?
-
         private MacroRatio macroRatio = new MacroRatio();
 
         public Builder proteinRatio (final BigDecimal proteinRatio){
